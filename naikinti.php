@@ -8,7 +8,7 @@
 		if($data){
 			echo "<script>alert('Prekė panaikinta')</script>";
 ?>
-			<META HTTP-EQUIV="Refresh" CONTENT="0; URL=http://localhost/taisymasDesignShop/adminPrekes.php">
+			<META HTTP-EQUIV="Refresh" CONTENT="0; URL=http://localhost/ranku_darbas/adminPrekes.php">
 			<?php
 		}else{
 			echo "Apgeilestaujame, nepavyko panaikinti duomenų.";
