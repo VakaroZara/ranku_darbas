@@ -8,7 +8,7 @@
 		if($data){
 			echo "<script>alert('Prekė pašalinta iš krepšelio')</script>";
 ?>
-			<META HTTP-EQUIV="Refresh" CONTENT="0; URL=http://localhost/taisymasDesignShop/krepselis.php">
+			<META HTTP-EQUIV="Refresh" CONTENT="0; URL=http://localhost/ranku_darbas/krepselis.php">
 			<?php
 		}else{
 			echo "Apgeilestaujame, prekės nepavyko pašalinti.";
