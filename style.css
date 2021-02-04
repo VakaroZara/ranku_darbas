@@ -1,0 +1,348 @@
+.header{
+	width: 100%;
+	height: 100px;
+	background-color: #b3b3ff;
+	margin: 0px;
+	border-bottom: 1px solid #000080;
+
+}
+.footer{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	position: fixed;
+	background-color: #b3b3ff;
+	margin: 0px;
+	border-top: 1px solid #000080;
+	left: 0;
+	bottom: 0px;
+}
+.gridas{
+	display: grid;
+	grid-template-columns: 15% 85%;
+}
+.visosfoto{
+	width: 1000px;
+}
+img{
+	width: 50px;
+	height: 50px;
+}
+.paieska{
+	position: absolute;
+	top: 15px;
+	right: 150px;
+}
+.prisijungimas{
+	position: absolute;
+	top: 0px;
+	right: 25px;
+}
+.prisijungimas a{
+	text-decoration: none;
+	color: black;
+}
+.foto{
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin: 15px;
+}
+.foto img{
+	width: 150px;
+	height: 150px;
+}
+.ivedimas{
+	margin-left: 300px;
+	margin-top: 50px;
+	background-color: #b3b3ff;
+	width: 240px;
+	padding: 90px 60px 90px 70px;
+	border: 6px solid #000080;
+}
+.ivedimas input{
+	height: 25px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+.ivedimas div, p{
+	margin: 10px;
+}
+.kita{
+	margin-left: 70px;
+}
+.kat{
+	border-bottom: 1px solid #000080;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+	color: #000080;
+	width: 15%;
+}
+.logo{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 90px;
+	height: 90px;
+}
+.albumas {
+	width: 11%;
+	margin-left: 50px;
+	margin-top: 30px;
+	padding: 10px;
+}
+.albumas img {
+	opacity: 0.8;
+	cursor: pointer;
+	width: 100px;
+	height: 100px;
+}
+.albumas img:hover{
+	opacity: 1;
+}
+#dideleFoto {
+	display: block;
+	margin-left: 200px;
+	margin-top: -460px;
+	width: 450px;
+	height: 450px;
+}
+.pavadinimas {
+	/*padding-left: 30px;*/
+	font-size: 25px;
+	margin-left: 60%;
+	margin-top: -470px;
+	width: 40%;
+}
+.kaina {
+	font-size: 20px;
+	margin-left: 60%;
+}
+.ikrepseli {
+	font-size: 20px;
+	margin-left: 60%;
+	border: 3px solid #000080;
+	width: 150px;
+	padding: 10px;
+	text-align: left;
+	border-radius: 45px;
+	background-color: #b3b3ff;
+
+}
+.aprasymas{
+	margin-left: 60%;
+}
+.krepseliobtn {
+	position: absolute;
+	font-size: 20px;
+	border: 3px solid #000080;
+	width: 100px;
+	padding: 5px;
+	text-align: center;
+	border-radius: 45px;
+	background-color: white;
+	left: 570px;
+	top: 30px;
+}
+.kita {
+	margin-left: 0px;
+}
+td, th {
+	padding: 5px;
+	border: 1px solid #000080;
+}
+label {
+	margin-left: 50px;
+	font-family: times new roman;
+}
+form {
+	margin-left: 50px;
+	font-family: times new roman;
+}
+  .iconMeniu{
+	  display: none;
+  }
+  .iconSearch{
+	  display: none;
+  }
+  .iconSearchA{
+	display: none;
+}
+  .iconLogin{
+	  display: none;
+  }
+.albumasC{
+	display:none;
+}
+.container-slide {
+	display:none;
+}
+.hreilutes{
+	display:none;
+}
+.preke1{
+	margin-left: 25%;
+	width:40%;
+	text-align: center;
+}
+@media screen and (max-width: 500px) {
+	.paieska{
+		display: none;
+	}
+	.prisijungimas{
+		display: none;
+	}
+	.foto{
+	width: 400px;
+	height: 400px;
+	margin: 30px 0 0 80px;
+
+	}
+	.foto img{
+		width: 300px;
+		height: 300px;
+	}
+	.kat{
+		display: none;
+	}
+	.iconLogin{
+		position: absolute;
+		top: 20px;
+		right:5px;
+		display: inline;
+		background-color: #b3b3ff;
+		border: none;
+		color: #000080;
+		padding: 12px 16px;
+		font-size: 30px;
+		cursor: pointer;
+	}
+	.iconMeniu{
+		position: absolute;
+		top: 20px;
+		left:5px;
+		display: inline;
+		background-color: #b3b3ff;
+		border: none;
+		color: #000080;
+		padding: 12px 16px;
+		font-size: 30px;
+		cursor: pointer;
+	}
+	.iconSearch{
+		position: absolute;
+		top: 20px;
+		right:70px;
+		display: inline;
+		background-color: #b3b3ff;
+		border: none;
+		color: #000080;
+		padding: 12px 16px;
+		font-size: 30px;
+		cursor: pointer;
+	}
+	.hoveris:hover .paieska {display: block;}
+	.hoveris:hover .prisijungimas {display: block;}
+	.gridas{
+		display: block;
+	}
+	.logo{
+		left: 75px;
+	}
+	#search{
+		position: absolute;
+		top: 65px;
+		right: 78px;
+	}
+	#login{
+		position: absolute;
+		top: 70px;
+		padding: 15px 5px 0 5px;
+		right: 0px;
+		height: 70px;
+		background-color: #b3b3ff;
+		border-bottom: 1px solid #000080;
+	}
+	.ivedimas{
+		margin-left: 55px;
+		margin-top: 7px;
+	}
+	#dideleFoto {
+		display: none;
+	}
+	.albumas {
+		display: none;
+	}
+
+	.container-slide {
+		display: block;
+		position: relative;
+		margin: auto;
+	}
+	.albumasC {
+		margin-left: 100px;
+		margin-top: 55px;
+	}
+	.albumasC img {
+		cursor: pointer;
+		width: 300px;
+		height: 300px;
+	}
+	.albumasC img:hover{
+		opacity: 0.7;
+	}
+	.pavadinimas{
+		font-size: 25px;
+		margin-left: 100px;
+		margin-top: 0px;
+		width: 60%;
+	}
+	.kaina {
+		font-size: 20px;
+		margin-left: 100px;
+	}
+	.ikrepseli {
+		margin-left: 270px;
+		width: 100px;
+		top: 105px;
+		position: fixed;
+	}
+	.aprasymas{
+		margin-left: 100px;
+	}
+
+	.krepseliobtn {
+		left: 100px;
+		top: 105px;
+	}
+	.hreilutes{
+		display:block;
+	}
+	.preke1{
+		margin-top: 10%;
+		margin-left: 0;
+		width:100%;
+		text-align: center;
+	}
+	.kat2{
+		border-bottom: 1px solid #000080;
+		width: 95%;
+		margin: 5px;
+		padding: 5px;
+		text-align: center;
+		text-decoration: none;
+	}
+	.bendras{
+		margin: -10px;
+	}
+ }
+ @media screen and (min-width: 501px) {
+	.kat2{
+		 display: none;
+	 }
+ }
