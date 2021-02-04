@@ -4,7 +4,7 @@
 		echo "<script>alert('Norėdami pamatyti detalesnę informaciją apie prekę, turite prisiregistruoti')</script>";
 		//header("location: Homepage.php");
 ?>
-		<META HTTP-EQUIV="Refresh" CONTENT="0; URL=http://localhost/taisymasDesignShop/prisijungimas.php">
+		<META HTTP-EQUIV="Refresh" CONTENT="0; URL=http://localhost/ranku_darbas/prisijungimas.php">
 		<?php
 	}
 			if (isset($_GET['logout'])) {
